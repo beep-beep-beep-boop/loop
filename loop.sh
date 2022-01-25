@@ -15,7 +15,7 @@ cmd=${cmd:1}
 
 while :
 do
-	$cmd
+	eval $cmd
 	read -n 1 -s
 done
 
