@@ -1,6 +1,8 @@
 runs its arguments as a shell command whenever you press a key
 
-useful for running a thing that you are making over and over over as you make changes
+useful for running a thing that you are making over and over as you make changes
+
+put the command in quotes if you want to use &&, ie `loop "gcc main.c && ./a.out"`
 
 ---
 
